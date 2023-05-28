@@ -26,14 +26,14 @@ def contar_apariciones_pdf_en_url(url, palabras):
     return conteo
 
 # Ejemplo de uso
-url_pdf = 'https://programa.masmadrid.org/pdf/Comunidad%20de%20Madrid/Programa%20Más%20Madrid%20-%20CM%202023.pdf'
+#url_pdf = 'https://programa.masmadrid.org/pdf/Comunidad%20de%20Madrid/Programa%20Más%20Madrid%20-%20CM%202023.pdf'
 #url_pdf = 'https://podemos.info/wp-content/uploads/2023/05/Podemos_programa_marco_28M_interactivo.pdf'
 #url_pdf = 'https://www.psoemadrid.es/wp-content/uploads/ProgLecturaFacilx20_PSOEM.pdf'
 #url_pdf = 'https://ppasamblea.es/Docs/PROGRAMA_NUEVAS_MEDIDAS.pdf'
-#url_pdf = 'https://www.newtral.es/wp-content/uploads/2019/04/Programa-electoral-VOX.pdf?x24211'
+url_pdf = 'https://www.newtral.es/wp-content/uploads/2019/04/Programa-electoral-VOX.pdf?x24211'
 
 
-palabras = ["educación", "sanidad", "alquiler","vivienda","público","laboral","condiciones laborales", "corrupción", "españa", "españoles","inmigración","concertada","concertado","lgtbi","adoctrinamiento","igualdad","social","energía","naturaleza","animal","animales","ciencia","industria","cultura","juventud","mayores","economía","iglesia","religión","transporte"]
+palabras = ["educación", "sanidad", "alquiler","vivienda","público","laboral","condiciones laborales", "corrupción", "españa", "españoles","inmigración","concertada","concertado","lgtbi","adoctrinamiento","igualdad","social","energía","naturaleza","animal","animales","ciencia","industria","cultura","juventud","mayores","economía","iglesia","religión","transporte","machismo"]
 resultado = contar_apariciones_pdf_en_url(url_pdf, palabras)
 
 # Imprimir el resultado
